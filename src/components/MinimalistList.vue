@@ -68,14 +68,10 @@
 </template>
 
 <script>
-import MinimalistActionButton from '../components/buttons/MinimalistActionButton.vue'
-import MinimalistListActionReveal from '../components/MinimalistListActionReveal.vue'
-import MinimalistListItem from '../components/MinimalistListItem.vue'
-import TitleKeyMixin from '../components/mixins/TitleKeyMixin.vue'
-import { getRandomId } from '../helpers/random'
+import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
+import { getRandomId } from '@/helpers/random'
 
 export default {
-  components: { MinimalistListActionReveal, MinimalistActionButton, MinimalistListItem },
   mixins: [TitleKeyMixin],
   props: {
     addText: {

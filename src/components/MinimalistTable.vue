@@ -103,21 +103,11 @@
   </div>
 </template>
 <script>
-import { getRandomId } from '../helpers/random'
-import MinimalistAccent from '../components/MinimalistAccent.vue'
-import MinimalistTableFilter from '../components/table/MinimalistTableFilter.vue'
-import MinimalistTableFilterPanel from '../components/table/MinimalistTableFilterPanel.vue'
-import Pagination from '../components/mixins/Pagination'
+import { getRandomId } from '@/helpers/random'
+import Pagination from '@/components/mixins/Pagination'
 
 export default {
-  components: {
-    MinimalistAccent,
-    MinimalistTableFilter,
-    MinimalistTableFilterPanel
-  },
-  mixins: [
-    Pagination
-  ],
+  mixins: [Pagination],
   inheritAttrs: false,
   props: {
     title: {

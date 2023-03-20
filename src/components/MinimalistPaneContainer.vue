@@ -27,15 +27,9 @@
 </template>
 
 <script>
-import MinimalistList from '../components/MinimalistList'
-import MinimalistListItem from '../components/MinimalistListItem'
-import { isMobile } from '../helpers'
+import { isMobile } from '@/helpers'
 
 export default {
-  components: {
-    MinimalistList,
-    MinimalistListItem
-  },
   props: {
     size: {
       type: Object,

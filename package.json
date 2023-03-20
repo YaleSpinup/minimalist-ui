@@ -1,6 +1,6 @@
 {
   "name": "@yale-spinup/minimalist-ui",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "A suite of components that fit a general minimalist theme",
   "main": "./src/main.js",
   "module": "./src/module.js",
@@ -8,8 +8,8 @@
   "files": ["dist"],
   "exports": {
     ".": {
-      "import": "./dist/minimalist-ui.js",
-      "require": "./dist/minimalist-ui.umd.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
     }
   },
   "scripts": {

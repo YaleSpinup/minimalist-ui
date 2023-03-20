@@ -128,6 +128,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '../assets/sass/custom';
+
   label {
     margin-bottom: 0;
     pointer-events: none;

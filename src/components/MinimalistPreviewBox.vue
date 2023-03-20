@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import { getRandomId } from '../helpers/random'
+import { getRandomId } from '@/helpers/random'
 
 export default {
   props: {
@@ -56,6 +56,8 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+  @import '../assets/sass/custom';
+
   .minimalist-preview-box {
     position: relative;
 

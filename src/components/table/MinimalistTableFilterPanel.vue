@@ -21,10 +21,8 @@
   </div>
 </template>
 <script>
-import MinimalistAccordion from '@/components/MinimalistAccordion'
 
 export default {
-  components: { MinimalistAccordion },
   inheritAttrs: false,
   props: {
     filterBodyFooterTitle: {

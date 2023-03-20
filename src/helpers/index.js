@@ -1,5 +1,3 @@
-import store from '../store/app'
-
 /**
  * Create an HTMLElementObject from a passed in string
  *

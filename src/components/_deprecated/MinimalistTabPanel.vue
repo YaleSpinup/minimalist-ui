@@ -20,13 +20,9 @@
   </div>
 </template>
 <script>
-import MinimalistTabButtons from '@/components/_deprecated/MinimalistTabButtons'
 import { EventBus } from '@/helpers/eventBus'
 
 export default {
-  components: {
-    MinimalistTabButtons
-  },
   props: {
     tabs: {
       type: Array,

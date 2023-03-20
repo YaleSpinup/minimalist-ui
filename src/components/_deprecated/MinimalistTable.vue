@@ -116,21 +116,11 @@
   </div>
 </template>
 <script>
-import Pagination from '@/components/mixins/Pagination'
-import MinimalistAccent from '@/components/MinimalistAccent'
-import MinimalistTableFilter from '@/components/table/MinimalistTableFilter'
-import MinimalistTableFilterPanel from '@/components/table/MinimalistTableFilterPanel'
 import { getRandomId } from '@/helpers/random'
+import Pagination from '@/components/mixins/Pagination'
 
 export default {
-  components: {
-    MinimalistAccent,
-    MinimalistTableFilter,
-    MinimalistTableFilterPanel
-  },
-  mixins: [
-    Pagination
-  ],
+  mixins: [Pagination],
   inheritAttrs: false,
   props: {
     title: {

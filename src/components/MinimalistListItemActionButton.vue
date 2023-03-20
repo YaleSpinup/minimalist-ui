@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
+import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
 
 export default {
   mixins: [TitleKeyMixin],
@@ -120,6 +120,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/sass/custom';
+
 .m-list-item-action {
   background: transparent;
   transition: all 0.3s ease;

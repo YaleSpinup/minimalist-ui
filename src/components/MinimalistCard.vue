@@ -17,11 +17,9 @@
 </template>
 
 <script>
-import { isEmpty } from '../helpers/general'
-import MinimalistCardContent from '../components/MinimalistCardContent.vue'
+import { isEmpty } from '@/helpers/general'
 
 export default {
-  components: { MinimalistCardContent },
   props: {
     title: {
       type: String,

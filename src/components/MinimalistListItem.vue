@@ -71,14 +71,10 @@
 </template>
 
 <script>
-import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
-import MinimalistListItemActionButton from '../components/MinimalistListItemActionButton'
+import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
 import { mapGetters } from 'vuex'
 
 export default {
-  components: {
-    MinimalistListItemActionButton
-  },
   mixins: [TitleKeyMixin],
   props: {
     item: {
@@ -154,6 +150,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/sass/custom';
+
 $accent-width: 10px;
 
 .m-list-item {

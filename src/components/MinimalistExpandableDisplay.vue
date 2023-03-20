@@ -39,12 +39,8 @@
 </template>
 
 <script>
-import MinimalistCard from '../components/MinimalistCard'
 
 export default {
-  components: {
-    MinimalistCard
-  },
   props: {
     title: {
       type: String,
@@ -69,6 +65,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/sass/custom';
+
 .minimalist-expandable-display {
   &.position-fixed {
     width: 95%;

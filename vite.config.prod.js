@@ -16,7 +16,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/module.js'),
       name: 'Minimalist',
       // the proper extensions will be added
-      fileName: 'minimalist-ui',
+      fileName: 'index',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

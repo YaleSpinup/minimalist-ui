@@ -26,10 +26,8 @@
 </template>
 
 <script>
-import MinimalistAccordion from '../components/MinimalistAccordion'
 
 export default {
-  components: { MinimalistAccordion },
   inheritAttrs: false,
   props: {
     description: {
@@ -75,6 +73,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/sass/custom';
+
 .content {
   width: 100%;
 }

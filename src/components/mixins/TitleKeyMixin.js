@@ -1,4 +1,4 @@
-import { getRandomId } from '../../helpers/random'
+import { getRandomId } from '@/helpers/random'
 
 export default {
   props: {

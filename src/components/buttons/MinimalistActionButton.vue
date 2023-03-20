@@ -61,6 +61,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../assets/sass/custom';
+
 .icon {
   transition: all 0.3s ease;
 
