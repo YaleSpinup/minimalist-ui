@@ -1,24 +1,40 @@
 {
-  "name": "minimalist-ui",
-  "version": "0.1.0",
-  "description": "A minimalist UI used for various UI components",
-  "main": "src/main.js",
+  "name": "@yale-spinup/minimalist-ui",
+  "version": "1.0.0",
+  "description": "A suite of components that fit a general minimalist theme",
+  "main": "./src/main.js",
+  "module": "./src/module.js",
   "type": "module",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/minimalist-ui.js",
+      "require": "./dist/minimalist-ui.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prod": "vite build --mode production --config ./vite.config.prod.js --minify --manifest",
     "preview": "vite preview"
   },
   "author": "Brandon Tassone <brandon.tassone@yale.edu>",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
-    "vue": "^2.7.0"
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.21",
+    "vue": "^2.7.0",
+    "vue-clipboard2": "^0.3.3",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.2.0",
-    "sass": "^1.58.3",
+    "sass": "~1.32.8",
     "vite": "^3.0.0"
   }
 }

@@ -1,0 +1,111 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+$blue: #286dc0;
+$primary: #286dc0;
+$secondary: #dddddd;
+$info: #63aaff;
+$warning: #bd5319;
+$success: #008000;
+$danger: #7a1a1a;
+$light: #f9f9f9;
+$dark: #222222;
+$body: #4a4a4a;
+$muted: #978d85;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1400px
+);
+
+$becomes-mobile: map-get($grid-breakpoints, 'md');
+$becomes-mobile-lg: map-get($grid-breakpoints, 'lg');
+
+$theme-colors: (
+  "yblue": #00356b,
+  "ylblue": #286dc0,
+  "yxlblue": #63aaff,
+  "ygreen": #5f712d,
+  "yorange": #bd5319
+);
+
+$yale-gray-light: #f9f9f9;
+$yale-gray: #dddddd;
+$yale-gray-mid: #978d85;
+$yale-gray-dark-mid: #4a4a4a;
+$yale-gray-dark: #222222;
+
+$yale-blue: #00356b;
+$yale-blue-light: #286dc0;
+$yale-blue-extra-light: #63aaff;
+
+$yale-accent-green: #5f712d;
+$yale-accent-orange: #bd5319;
+
+$extra-light-alt: #f0f0f0;
+
+$yale-colors: (
+  gray-light: $yale-gray-light,
+  gray: $yale-gray,
+  gray-mid: $yale-gray-mid,
+  gray-dark-mid: $yale-gray-dark-mid,
+  gray-dark: $yale-gray-dark,
+  blue: $yale-blue,
+  blue-light: $yale-blue-light,
+  blue-extra-light: $yale-blue-extra-light,
+  accent-green: $yale-accent-green,
+  accent-orange: $yale-accent-orange
+);
+
+$extra-colors: (
+  gray-light-alt: $extra-light-alt
+);
+
+$navbar-dark-color: rgba(255, 255, 255, 0.91);
+$navbar-dark-hover-color: rgba(255, 255, 255, 0.96);
+$navbar-dark-active-color: rgba(255, 255, 255, 0.96);
+
+$directions: (top, right, bottom, left);
+
+@function y-color($y-color) {
+  @return map-get($yale-colors, $y-color);
+}
+
+@each $color-set in ($yale-colors, $extra-colors) {
+  @each $color-name, $color-value in $color-set {
+    .bg-#{"" + $color-name} {
+      background-color: $color-value;
+    }
+
+    .text-#{"" + $color-name} {
+      color: $color-value;
+    }
+
+    .border-#{"" + $color-name} {
+      border-color: $color-value !important;
+    }
+  }
+}
+
+@each $direction in $directions {
+  .yborder {
+    &-#{$direction} {
+      border-#{$direction}: 1px solid transparent;
+    }
+  }
+}
+
+

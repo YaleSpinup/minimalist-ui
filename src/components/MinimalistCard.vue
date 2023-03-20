@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import { isEmpty } from '@/helpers/general'
-import MinimalistCardContent from '@/components/_minimalist/MinimalistCardContent'
+import { isEmpty } from '../helpers/general'
+import MinimalistCardContent from '../components/MinimalistCardContent.vue'
 
 export default {
   components: { MinimalistCardContent },

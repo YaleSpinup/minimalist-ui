@@ -27,9 +27,9 @@
 </template>
 
 <script>
-import MinimalistList from '@/components/_minimalist/MinimalistList'
-import MinimalistListItem from '@/components/_minimalist/MinimalistListItem'
-import { isMobile } from '@/helpers'
+import MinimalistList from '../components/MinimalistList'
+import MinimalistListItem from '../components/MinimalistListItem'
+import { isMobile } from '../helpers'
 
 export default {
   components: {

@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import MinimalistTabButtons from '@/components/_minimalist/_deprecated/MinimalistTabButtons'
+import MinimalistTabButtons from '@/components/_deprecated/MinimalistTabButtons'
 import { EventBus } from '@/helpers/eventBus'
 
 export default {

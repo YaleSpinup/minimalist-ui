@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-import MinimalistAccordion from '@/components/_minimalist/MinimalistAccordion'
+import MinimalistAccordion from '@/components/MinimalistAccordion'
 
 export default {
   components: { MinimalistAccordion },

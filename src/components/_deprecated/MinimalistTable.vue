@@ -116,10 +116,10 @@
   </div>
 </template>
 <script>
-import Pagination from '@/components/_minimalist/mixins/Pagination'
-import MinimalistAccent from '@/components/_minimalist/MinimalistAccent'
-import MinimalistTableFilter from '@/components/_minimalist/table/MinimalistTableFilter'
-import MinimalistTableFilterPanel from '@/components/_minimalist/table/MinimalistTableFilterPanel'
+import Pagination from '@/components/mixins/Pagination'
+import MinimalistAccent from '@/components/MinimalistAccent'
+import MinimalistTableFilter from '@/components/table/MinimalistTableFilter'
+import MinimalistTableFilterPanel from '@/components/table/MinimalistTableFilterPanel'
 import { getRandomId } from '@/helpers/random'
 
 export default {

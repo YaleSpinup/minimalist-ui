@@ -71,8 +71,8 @@
 </template>
 
 <script>
-import TitleKeyMixin from '@/components/_minimalist/mixins/TitleKeyMixin'
-import MinimalistListItemActionButton from '@/components/_minimalist/MinimalistListItemActionButton'
+import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
+import MinimalistListItemActionButton from '../components/MinimalistListItemActionButton'
 import { mapGetters } from 'vuex'
 
 export default {

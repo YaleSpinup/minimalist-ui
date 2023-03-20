@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import MinimalistCard from '@/components/_minimalist/MinimalistCard'
+import MinimalistCard from '../components/MinimalistCard'
 
 export default {
   components: {

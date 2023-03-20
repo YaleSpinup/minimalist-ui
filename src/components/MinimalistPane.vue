@@ -62,8 +62,8 @@
 </template>
 
 <script>
-import MinimalistPaneHeader from '@/components/_minimalist/MinimalistPaneHeader'
-import TitleKeyMixin from '@/components/_minimalist/mixins/TitleKeyMixin'
+import MinimalistPaneHeader from '../components/MinimalistPaneHeader'
+import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
 
 export default {
   components: { MinimalistPaneHeader },

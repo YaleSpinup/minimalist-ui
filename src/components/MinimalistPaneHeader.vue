@@ -61,9 +61,9 @@
 </template>
 
 <script>
-import MinimalistActionButton from '@/components/_minimalist/buttons/MinimalistActionButton'
-import TitleKeyMixin from '@/components/_minimalist/mixins/TitleKeyMixin'
-import { stripReactivity } from '@/helpers/reactivity'
+import MinimalistActionButton from '../components/buttons/MinimalistActionButton'
+import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
+import { stripReactivity } from '../helpers/reactivity'
 
 export default {
   components: { MinimalistActionButton },

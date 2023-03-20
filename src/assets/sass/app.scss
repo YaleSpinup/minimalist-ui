@@ -1,3 +1,18 @@
-body {
-  background: blue;
+$fa-font-path: '~font-awesome/fonts/';
+
+@import 'custom';
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-vue/dist/bootstrap-vue.css';
+@import 'font-awesome/scss/font-awesome';
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.91);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
 }

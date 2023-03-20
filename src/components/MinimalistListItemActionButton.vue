@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import TitleKeyMixin from '@/components/_minimalist/mixins/TitleKeyMixin'
+import TitleKeyMixin from '../components/mixins/TitleKeyMixin'
 
 export default {
   mixins: [TitleKeyMixin],

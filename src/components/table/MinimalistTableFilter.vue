@@ -33,7 +33,7 @@
 </template>
 <script>
 import { BIconSearch, BIconXCircle } from 'bootstrap-vue'
-import TableSearch from '@/components/_minimalist/mixins/TableSearch'
+import TableSearch from '@/components/mixins/TableSearch'
 
 export default {
   components: {
