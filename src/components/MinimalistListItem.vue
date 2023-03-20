@@ -72,9 +72,13 @@
 
 <script>
 import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
+import MinimalistListItemActionButton from '@/components/MinimalistListItemActionButton.vue'
 import { mapGetters } from 'vuex'
 
 export default {
+  components: {
+    MinimalistListItemActionButton
+  },
   mixins: [TitleKeyMixin],
   props: {
     item: {

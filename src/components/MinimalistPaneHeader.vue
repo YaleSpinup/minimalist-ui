@@ -62,9 +62,13 @@
 
 <script>
 import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
+import MinimalistActionButton from '@/components/buttons/MinimalistActionButton.vue'
 import { stripReactivity } from '@/helpers/reactivity'
 
 export default {
+  components: {
+    MinimalistActionButton
+  },
   mixins: [TitleKeyMixin],
   props: {
     selected: {

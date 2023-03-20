@@ -21,8 +21,12 @@
 </template>
 <script>
 import { EventBus } from '@/helpers/eventBus'
+import MinimalistTabButtons from '@/components/_deprecated/MinimalistTabButtons.vue'
 
 export default {
+  components: {
+    MinimalistTabButtons
+  },
   props: {
     tabs: {
       type: Array,

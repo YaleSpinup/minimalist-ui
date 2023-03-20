@@ -39,8 +39,12 @@
 </template>
 
 <script>
+import MinimalistCard from '@/components/MinimalistCard.vue'
 
 export default {
+  components: {
+    MinimalistCard
+  },
   props: {
     title: {
       type: String,

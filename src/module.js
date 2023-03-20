@@ -1,29 +1,3 @@
-// General Components
-import MinimalistAccent from "./components/MinimalistAccent.vue";
-import MinimalistAccordion from "@/components/MinimalistAccordion.vue";
-import MinimalistCard from "./components/MinimalistCard.vue";
-import MinimalistCardContent from "@/components/MinimalistCardContent.vue";
-import MinimalistCardDivider from "@/components/MinimalistCardDivider.vue";
-import MinimalistExpandableDisplay from "@/components/MinimalistExpandableDisplay.vue";
-import MinimalistHorizontalListSelect from "@/components/MinimalistHorizontalListSelect.vue";
-import MinimalistList from "@/components/MinimalistList.vue";
-import MinimalistListActionReveal from "@/components/MinimalistListActionReveal.vue";
-import MinimalistListItem from "@/components/MinimalistListItem.vue";
-import MinimalistListItemActionButton from "@/components/MinimalistListItemActionButton.vue";
-import MinimalistObjectDisplayCard from "@/components/MinimalistObjectDisplayCard.vue";
-import MinimalistPane from "@/components/MinimalistPane.vue";
-import MinimalistPaneContainer from "@/components/MinimalistPaneContainer.vue";
-import MinimalistPaneHeader from "@/components/MinimalistPaneHeader.vue";
-import MinimalistPreviewBox from "@/components/MinimalistPreviewBox.vue";
-import MinimalistSection from "@/components/MinimalistSection.vue";
-import MinimalistSectionHeader from "@/components/MinimalistSectionHeader.vue";
-import MinimalistTable from "@/components/MinimalistTable.vue";
-import MinimalistTabs from "@/components/MinimalistTabs.vue";
-
-// Table
-import MinimalistTableFilter from "@/components/table/MinimalistTableFilter.vue";
-import MinimalistTableFilterPanel from "@/components/table/MinimalistTableFilterPanel.vue";
-
 // Mixins
 import AccordionTransition from "@/components/mixins/AccordionTransition.js";
 import Pagination from "@/components/mixins/Pagination.js";
@@ -31,6 +5,40 @@ import TableSearch from "@/components/mixins/TableSearch.js";
 import TabPanelEvents from "@/components/mixins/TabPanelEvents.js";
 import TaskStatusFilter from "@/components/mixins/TaskStatusFilter.js";
 import TitleKeyMixin from "@/components/mixins/TitleKeyMixin.js";
+
+// General Components - No internal component imports
+import MinimalistAccent from "@/components/MinimalistAccent.vue";
+import MinimalistAccordion from "@/components/MinimalistAccordion.vue";
+import MinimalistHorizontalListSelect from "@/components/MinimalistHorizontalListSelect.vue";
+import MinimalistObjectDisplayCard from "@/components/MinimalistObjectDisplayCard.vue";
+import MinimalistPreviewBox from "@/components/MinimalistPreviewBox.vue";
+import MinimalistTabs from "@/components/MinimalistTabs.vue";
+
+// Section
+import MinimalistSection from "@/components/MinimalistSection.vue";
+import MinimalistSectionHeader from "@/components/MinimalistSectionHeader.vue";
+
+// Pane
+import MinimalistPane from "@/components/MinimalistPane.vue";
+import MinimalistPaneContainer from "@/components/MinimalistPaneContainer.vue";
+import MinimalistPaneHeader from "@/components/MinimalistPaneHeader.vue";
+
+// Card
+import MinimalistCardContent from "@/components/MinimalistCardContent.vue";
+import MinimalistCardDivider from "@/components/MinimalistCardDivider.vue";
+import MinimalistCard from "@/components/MinimalistCard.vue";
+import MinimalistExpandableDisplay from "@/components/MinimalistExpandableDisplay.vue";
+
+// List
+import MinimalistListActionReveal from "@/components/MinimalistListActionReveal.vue";
+import MinimalistListItemActionButton from "@/components/MinimalistListItemActionButton.vue";
+import MinimalistListItem from "@/components/MinimalistListItem.vue";
+import MinimalistList from "@/components/MinimalistList.vue";
+
+// Table
+import MinimalistTableFilter from "@/components/table/MinimalistTableFilter.vue";
+import MinimalistTableFilterPanel from "@/components/table/MinimalistTableFilterPanel.vue";
+import MinimalistTable from "@/components/MinimalistTable.vue";
 
 // Buttons
 import MinimalistActionButton from "@/components/buttons/MinimalistActionButton.vue";

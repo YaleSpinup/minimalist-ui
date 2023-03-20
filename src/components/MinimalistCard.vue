@@ -18,8 +18,12 @@
 
 <script>
 import { isEmpty } from '@/helpers/general'
+import MinimalistCardContent from '@/components/MinimalistCardContent.vue'
 
 export default {
+  components: {
+    MinimalistCardContent
+  },
   props: {
     title: {
       type: String,

@@ -63,8 +63,12 @@
 
 <script>
 import TitleKeyMixin from '@/components/mixins/TitleKeyMixin'
+import MinimalistPaneHeader from '@/components/MinimalistPaneHeader.vue'
 
 export default {
+  components: {
+    MinimalistPaneHeader
+  },
   mixins: [TitleKeyMixin],
   props: {
     selected: {

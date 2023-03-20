@@ -21,8 +21,12 @@
   </div>
 </template>
 <script>
+import MinimalistAccordion from '@/components/MinimalistAccordion.vue'
 
 export default {
+  components: {
+    MinimalistAccordion
+  },
   inheritAttrs: false,
   props: {
     filterBodyFooterTitle: {
