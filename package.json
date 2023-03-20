@@ -1,6 +1,6 @@
 {
   "name": "@yale-spinup/minimalist-ui",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A suite of components that fit a general minimalist theme",
   "main": "./src/main.js",
   "module": "./src/module.js",
