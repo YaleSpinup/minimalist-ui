@@ -5,7 +5,9 @@
   "main": "./src/main.js",
   "module": "./src/module.js",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -14,10 +16,15 @@
     "./style.css": "./dist/style.css"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "prod": "vite build --mode production --config ./vite.config.prod.js --minify --manifest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "author": "Brandon Tassone <brandon.tassone@yale.edu>",
   "license": "ISC",
@@ -29,12 +36,14 @@
     "bootstrap-vue": "^2.21.2",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.21",
+    "nuxt": "^2.16.3",
     "vue": "^2.7.0",
     "vue-clipboard2": "^0.3.3",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue2": "^2.2.0",
+    "nuxt-vite": "^0.3.5",
     "sass": "~1.32.8",
     "vite": "^3.0.0"
   }
